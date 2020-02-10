@@ -31,5 +31,5 @@ Forwarding from [::1]:37301 -> 80
 
 ### TESTING - PORT FORWARDING
 $ curl http://10.8.0.50
-<h3>Sklearn Prediction Home</h3>sabeer@k8s-admin-poc:~$
+<h3>Sklearn Prediction Home</h3>
 
