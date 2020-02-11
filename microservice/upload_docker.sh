@@ -6,13 +6,14 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=sabeerz/proj5
+dockerpath="sabeerz/proj5"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login &&\
+   docker tag proj5 $dockerpath 
 
 # Step 3:
 # Push image to a docker repository
-docker tag proj5-v2 $dockerpath:latest
-docker push $dockerpath:latest
+docker push $dockerpath
