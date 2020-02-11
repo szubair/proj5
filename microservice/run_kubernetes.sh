@@ -21,5 +21,5 @@ kubectl get pods
 kubectl get pods -o wide
 
 ### command to do port-forwarding 
-kubectl port-forward pod/myapp :80
+kubectl port-forward pod/myapp 80:80
 
