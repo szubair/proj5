@@ -17,9 +17,9 @@ run-circleci-local:
 	# See https://circleci.com/docs/2.0/local-cli/#running-a-job
 	circleci local execute
 
-lint:
-	hadolint microservice/Dockerfile
-	pylint --disable=R,C,W1203,W1202 microservice/**/**.py
+#lint:
+#	hadolint microservice/Dockerfile
+#	pylint --disable=R,C,W1203,W1202 microservice/**/**.py
 
-all: install lint test
+#all: install lint test
 
