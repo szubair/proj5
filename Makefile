@@ -19,7 +19,7 @@ run-circleci-local:
 
 lint:
 	hadolint microservice/Dockerfile
-	pylint --disable=R,C,W1203,W1202 demos/**/**.py
+	pylint --disable=R,C,W1203,W1202 microservice/**/**.py
 
 all: install lint test
 
